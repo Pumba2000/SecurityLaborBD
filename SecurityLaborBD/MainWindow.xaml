@@ -5,16 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SecurityLaborBD"
         mc:Ignorable="d"
-        Title="Учет профессиональных рисков" Height="450" Width="800" WindowState="Maximized" Background="#c0c4bb">
+        Title="Учет профессиональных рисков" Height="450" Width="800" WindowState="Normal" Background="#c0c4bb" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="6*"/>
-            <RowDefinition Height="139*"/>
-        </Grid.RowDefinitions>
-        <ToolBar HorizontalAlignment="Left" Height="18" VerticalAlignment="Center" Width="60" Header="Файл" Margin="10,0,0,0"/>
-        <ToolBar HorizontalAlignment="Left" Height="18" Margin="70,0,0,0" VerticalAlignment="Center" Width="66" Header="Правка"/>
-        <ToolBar HorizontalAlignment="Left" Height="18" Margin="141,0,0,0" VerticalAlignment="Center" Width="68" Header="Печать"/>
-        <ToolBar HorizontalAlignment="Left" Height="18" Margin="214,0,0,0" VerticalAlignment="Center" Width="74" Header="Справка"/>
-
+       
     </Grid>
 </Window>
