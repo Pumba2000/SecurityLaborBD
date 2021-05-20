@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityLaborBD", "SecurityLaborBD.csproj", "{993E6EEE-ACBD-47A1-84C7-74D1F60B3C29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{9C32B7E0-F0D8-4CCB-9C0C-2E8A3A0D4D1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{5254ED7D-FC06-4511-A6EC-CD7BF754559F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{C724A7EC-6C89-4C8A-9C0B-51594793282B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{993E6EEE-ACBD-47A1-84C7-74D1F60B3C29} = {9C32B7E0-F0D8-4CCB-9C0C-2E8A3A0D4D1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {185A31BD-5969-4D37-96B6-B9D73DF61BC0}
